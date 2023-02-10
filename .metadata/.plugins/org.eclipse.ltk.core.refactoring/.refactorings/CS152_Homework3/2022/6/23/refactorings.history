@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CS152_Homework3/HW3.java&apos; to &apos;HW3P1.java&apos;" description="Rename resource &apos;HW3.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="HW3.java" name="HW3P1.java" stamp="1654301837055" updateReferences="true"/>
+</session>

@@ -1,0 +1,76 @@
+
+/*
+ * Class: CMSC203 
+ * Instructor: Farnaz Eivazi
+ * Description: (Give a brief description for each Class)
+ * Due: 6/26/2022
+ * Platform/compiler: Eclipse and Command Prompt
+ * I pledge that I have completed the programming assignment independently.
+   I have not copied the code from a student or any source.
+   I have not given my code to any student.
+   Print your Name here: Manny Fomundam
+*/
+
+import java.util.Scanner;
+/**
+ * Driver Class
+ */
+
+public class GuessingGame {
+	public static Scanner scan;
+	public static int randNum;
+	public static int nextGuess, highGuess, lowGuess;
+	public static RNG rang;
+	public static void main(String[] args) {
+		rang = new RNG();
+		String start = "yes";
+		while(start.equals("yes")) {
+			initGame();
+			playGame();
+			System.out.println("Play again? (yes or no)");
+			start = scan.next();
+			System.out.println("");
+		}
+		System.out.println("Thanks for playing...");
+	}
+	
+/**
+* Start the game
+**/	
+	public static void initGame() {
+		lowGuess = 1;
+		highGuess = 100;
+		randNum = rang.rand();
+		rang.resetCount();
+	}
+	
+/**
+* Play the game
+*/
+    public static void playGame() {
+		scan = new Scanner(System.in);
+		System.out.println("Enter your 1st guess");
+		nextGuess = scan.nextInt();
+		
+		while(nextGuess != randNum) {
+			if(!rang.inputValidation(nextGuess, lowGuess, highGuess)) {
+				nextGuess = scan.nextInt();
+				continue;
+			}
+			
+			System.out.println("Number of guesses is " + rang.getCount());
+			if(nextGuess > randNum) {
+				highGuess = nextGuess;
+				System.out.println("Guess is too high");
+			}
+			else {
+				lowGuess = nextGuess;
+				System.out.println("Guess is too low");
+			}
+			System.out.println("Enter your next guess between " + lowGuess + " and " + highGuess);
+			nextGuess = scan.nextInt();
+		}
+		System.out.println("You took " + (rang.getCount() + 1) + " guesses to get the right answer!");
+		System.out.println("Congratulations, you guessed the right number!");
+	}
+}

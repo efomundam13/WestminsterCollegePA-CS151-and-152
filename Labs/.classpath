@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path=" Inheritance History"/>
+	<classpathentry kind="src" path=" Customized Magis Squares"/>
+	<classpathentry kind="src" path=" Two-Dimensional Arrays"/>
+	<classpathentry kind="src" path=" Card and Deck Class"/>
+	<classpathentry kind="src" path=" Opish Class"/>
+	<classpathentry kind="src" path=" Loops"/>
+	<classpathentry kind="src" path=" Practice with Selection Statements"/>
+	<classpathentry kind="src" path=" Do You Have the Time"/>
+	<classpathentry kind="src" path=" String Processing with Dates"/>
+	<classpathentry kind="src" path=" Windchill"/>
+	<classpathentry kind="src" path=" Getting Acquainted with Eclipse"/>
+	<classpathentry kind="src" path="Lab 1 - Comparing Sorting Methods"/>
+	<classpathentry kind="src" path="Lab 2 - Fibonacci Numbers"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

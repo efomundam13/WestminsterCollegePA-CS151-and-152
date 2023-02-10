@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move source folder &apos;HW1&apos; to &apos;In Class Code&apos;&#x0D;&#x0A;- Original project: &apos;CSII HW&apos;&#x0D;&#x0A;- Destination element: &apos;In Class Code&apos;&#x0D;&#x0A;- Original element: &apos;CSII HW/HW1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folder" destination="=In Class Code" element1="/HW1" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="1" stamp="1644446834832" version="1.0"/>
+</session>

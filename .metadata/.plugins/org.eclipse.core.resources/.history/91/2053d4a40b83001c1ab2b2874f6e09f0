@@ -1,0 +1,33 @@
+
+public class PlayfairCoder extends KeyCoder{
+
+	private char[][] Coder = new char[5][5];
+	
+	public PlayfairCoder() {
+		super();
+	}
+	
+	public PlayfairCoder(String key) {
+		super(key);
+	}
+	
+	@Override
+	public String encrypt(String s) {
+		s = justLetters(s);
+		String ciphertext = "";
+		
+		
+		return null;
+	}
+
+	@Override
+	public String decrypt(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public static void main(String [] args)	{
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class RelationOperator {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("What is your major --> ");
+		String major = in.next();
+		
+		if(!major.equalsIgnoreCase("CMSC")) {
+			System.out.println("")
+		}
+	}
+}

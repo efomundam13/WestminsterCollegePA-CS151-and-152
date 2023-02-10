@@ -1,0 +1,10 @@
+
+public class tests {
+	public static void main(String[] args) {
+		int value = 0;
+		int count = 1;
+		value = count++;
+		System.out.println(value);
+		System.out.println(count);
+}
+}

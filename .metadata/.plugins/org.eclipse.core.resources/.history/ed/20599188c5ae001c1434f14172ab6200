@@ -1,0 +1,126 @@
+
+import java.util.*;
+
+public class HW4P1 {
+    // Function  for 3-way merge sort process
+    public static void mergeSortThreeWay(int [] a) {
+        // if array of size is zero returns null
+        if (a == null)
+            return;
+ 
+        // creating duplicate of given array
+        int [] b = new int[a.length];
+ 
+        // copying elements of given array into
+        // duplicate array
+        for (int i = 0; i < b.length; i++)
+            b[i] = a[i];
+ 
+        // sort function
+        threeWayMergeSort(b, 0, a.length, a);
+ 
+        // copy back elements of duplicate array
+        // to given array
+        for (int i = 0; i < b.length; i++)
+            a[i] = b[i];
+    }
+ 
+    /* Performing the merge sort algorithm on the
+       given array of values in the rangeof indices
+       [low, high).  low is minimum index, high is
+       maximum index (exclusive) */
+    public static void threeWayMergeSort(int [] a, int low, int high, int [] workspace) {
+        // If array size is 1 then do nothing
+        if (high - low < 2)
+            return;
+ 
+        // Splitting array into 3 parts
+        int mid1 = low + ((high - low) / 3);
+        int mid2 = low + 2 * ((high - low) / 3) + 1;
+ 
+        // Sorting 3 arrays recursively
+        threeWayMergeSort(workspace, low, mid1, a);
+        threeWayMergeSort(workspace, mid1, mid2, a);
+        threeWayMergeSort(workspace, mid2, high, a);
+ 
+        // Merging the sorted arrays
+        merge(workspace, low, mid1, mid2, high, workspace);
+    }
+ 
+    /* Merge the sorted ranges [low, mid1), [mid1,
+       mid2) and [mid2, high) mid1 is first midpoint
+       index in overall range to merge mid2 is second
+       midpoint index in overall range to merge*/
+    public static void merge(int [] a, int low, int mid1, int mid2, int high, int [] workspace) {
+        int i = low, j = mid1, k = mid2, l = low;
+ 
+        // choose smaller of the smallest in the three ranges
+        while ((i < mid1) && (j < mid2) && (k < high)) {
+            if (a[i] < a[j]) {
+                if (a[i] < a[k])
+                    workspace[l++] = a[i++];
+                else
+                    workspace[l++] = a[k++];
+                }
+            else {
+                if (a[j] < a[k])
+                    workspace[l++] = a[j++];
+                else
+                    workspace[l++] = a[k++];
+                }
+            }
+ 
+        // case where first and second ranges have
+        // remaining values
+        while ((i < mid1) && (j < mid2)) {
+            if (a[i] < a[j])
+                workspace[l++] = a[i++];
+            else
+                workspace[l++] = a[j++];
+            }
+ 
+        // case where second and third ranges have
+        // remaining values
+        while ((j < mid2) && (k < high)) {
+            if (a[j] < a[k])
+                workspace[l++] = a[j++];
+ 
+            else
+                workspace[l++] = a[k++];
+            }
+ 
+        // case where first and third ranges have
+        // remaining values
+        while ((i < mid1) && (k < high)) {
+            if (a[i] < a[k])
+                workspace[l++] = a[i++];
+            else
+                workspace[l++] = a[k++];
+            }
+ 
+        // copy remaining values from the first range
+        while (i < mid1)
+            workspace[l++] = a[i++];
+ 
+        // copy remaining values from the second range
+        while (j < mid2)
+            workspace[l++] = a[j++];
+ 
+        // copy remaining values from the third range
+        while (k < high)
+            workspace[l++] = a[k++];
+        }
+ 
+    // Driver function
+    public static void main(String args[]) {
+        // test case of values
+        int [] data = new int[] {30, 42, 7, 71, 19,
+        						61, 86, 64, 44, 38,
+        						24, 22, 82, 5, 51};
+        mergeSortThreeWay(data);
+ 
+        System.out.println("After 3 way merge sort: ");
+        for (int i = 0; i < data.length; i++)
+            System.out.print(data[i] + " ");
+    }
+}

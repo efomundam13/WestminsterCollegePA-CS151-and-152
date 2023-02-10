@@ -1,0 +1,189 @@
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class SudokuGame extends JFrame implements ActionListener {
+	
+	private JButton hintButton, resetButton, solveButton, undoButton, guessButton;
+	private static JTextField[][] grid;
+	private static int[][] board;
+	private static int[][] puzzle;
+	private JPanel sidePanel, gridPanel;
+	static SudokuGenerator sg = new SudokuGenerator();
+	
+	public SudokuGame() {
+		setTitle("Sudoku Board");
+		setSize(450,350);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setResizable(false);
+        
+		hintButton = new JButton("Hint");
+		hintButton.addActionListener(this);
+		resetButton = new JButton("Reset");
+		resetButton.addActionListener(this);
+		solveButton = new JButton("Solve");
+		solveButton.addActionListener(this);
+		undoButton = new JButton("Undo");
+		undoButton.addActionListener(this);
+		guessButton = new JButton("Guess");
+		guessButton.addActionListener(this);
+		
+		sidePanel = new JPanel(new GridLayout(5,1,15,15));
+		gridPanel = new JPanel(new GridLayout(9,9));
+		
+		grid = new JTextField[9][9];
+		gridPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK, 5));
+		for(int i = 0; i < 9; i++) {
+			for(int j = 0; j < 9; j++) {
+				int row = (i % 3) + (j % 3) * 3;
+				int col = (i / 3) + (j / 3) * 3;
+				grid[i][j] = new JTextField();
+				grid[i][j].setHorizontalAlignment(JTextField.CENTER);
+				grid[i][j].setText("");
+				gridPanel.add(grid[i][j]);
+			}
+		}
+		
+		sidePanel.add(hintButton);
+		sidePanel.add(resetButton);
+		sidePanel.add(solveButton);
+		sidePanel.add(undoButton);
+		sidePanel.add(guessButton);
+		
+		add(sidePanel, BorderLayout.EAST);
+		add(gridPanel, BorderLayout.CENTER);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		sg = new SudokuGenerator();
+		Object button = e.getSource();
+			if(button == hintButton) {
+				System.out.println("<< HINT >>");
+			}
+			else if(button == resetButton) {
+				puzzle = new int[9][9];
+				sg.generatePuzzle();
+				puzzle = sg.getPuzzle();
+				System.out.println("<< RESET >>");
+				for(int i = 0; i < 9; i++) {
+					for(int j = 0; j < 9; j++) {
+						int x = puzzle[i][j];
+						if(x == 0) {
+							grid[i][j].setText("" + x);
+							grid[i][j].setEditable(true);
+							}
+						else {
+							grid[i][j].setText("" + x);
+							grid[i][j].setEditable(false);
+							}
+						}		
+					}
+				this.gridPanel.repaint();
+				this.repaint();
+				}
+			else if(button == solveButton) {
+				System.out.println("<< SOLVE >>");
+				sg.generatePuzzle();
+				puzzle = new int[9][9];
+				puzzle = sg.getPuzzle();
+				puzzle = sg.getSolution();
+				for(int i = 0; i < 9; i++) {
+					for(int j = 0; j < 9; j++) {
+						int x = puzzle[i][j];
+						if(isValid()) {
+							grid[i][j].setText("" + x);
+							System.out.println("Correct! Congrats!");
+						}
+						else {
+							System.out.println("Incorrect! Try Again");
+						}
+					}
+				}
+				
+				
+			}
+			else if(button == undoButton) {
+				System.out.println("<< UNDO >>");
+			}
+			else if(button == guessButton) {
+				System.out.println("<< GUESS >>");
+			}
+		}
+	
+	public static boolean isGridValid(int i, int j, int [][] grid) {
+		for(int col = 0; col < 9; col++) {
+			if(col != j && grid[i][col] == grid[i][j]) {
+				return false;
+			}
+		}
+		
+		for(int row = 0; row < 9; row++) {
+			if(row != i && grid[row][j] == grid[i][j]) {
+				return false;
+			}
+		}
+		
+		for (int row = (i / 3) * 3; row < (i / 3) * 3 + 3; row++) {
+			for (int col = (j / 3) * 3; col < (j / 3) * 3 + 3; col++) {
+				if (!(row == i && col == j) && grid[row][col] == grid[i][j]) {
+					return false;
+					}
+				}
+			}
+		return true;
+	}
+	
+	public static boolean isValid(int[][] grid) {
+		for(int row = 0; row < 9; row++) {
+			for(int col = 0; row < 9; col++) {
+				if(grid[row][col] < 1 || grid[row][col] > 9 || !isGridValid(row, col, grid)) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+	
+	public static boolean validateSolution(int[][] grid) {
+		for(int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if (grid[i][j] < 1 || grid[i][j] > 9 || !isGridValid(i, j, grid)) {
+					return false;
+					}
+				}
+			}
+		return true;
+		}
+
+	
+	public static void printArray(int[][] grid){
+		if(grid.length > 0) {
+			for (int row = 0; row < grid.length; row++) {
+				 for (int column = 0; column < grid[row].length; column++) {
+					 System.out.print(grid[row][column] + " ");
+					 }
+				 System.out.println();
+				 }
+			}
+		else {
+			System.out.println("No Elements in array");}
+		}
+	
+	public static void main(String[] args) {
+		SudokuGame window = new SudokuGame();
+		
+		sg.setSymmetry(true);
+		sg.setValsInPuzzle(17);
+		sg.generatePuzzle();
+		sg.getPuzzle();
+		sg.getSolution();
+		printArray(sg.getPuzzle());
+		System.out.println();
+		printArray(sg.getSolution());
+		
+		window.setVisible(true);
+		System.out.println();
+		}
+	}

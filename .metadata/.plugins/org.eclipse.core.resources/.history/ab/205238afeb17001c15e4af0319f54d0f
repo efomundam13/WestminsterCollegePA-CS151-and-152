@@ -1,0 +1,17 @@
+
+public class lab3 {
+
+	/** Manny Fomundam
+	 * 09/17/2021
+	 * Lab 3: String Processing with Dates
+	 * Using the string process to change the date format from mm/dd/yyyy to dd/mm/yyyy
+	 */
+	
+	public static void main(String[] args) {
+
+		String date1 = "9/14/2021";
+		DataTimeFormatter dtf = DataTimeFormatter.ofPattern("dd/mm/yyyy");
+		
+	}
+
+}

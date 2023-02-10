@@ -1,0 +1,7 @@
+
+public class HW4P1A {
+	public static void mergeSort(int [] a, int low, int high, int [] wspace) {
+		int mid = (low + high) / 2;
+		
+	}
+}

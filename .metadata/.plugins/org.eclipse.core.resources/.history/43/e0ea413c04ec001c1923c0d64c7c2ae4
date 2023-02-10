@@ -1,0 +1,19 @@
+
+public class tests {
+	public static void main(String[] args) {
+		int day = 7;
+		switch(day) {
+		case 1:
+			System.out.print("1");
+		case 2:
+			System.out.print("2");
+		case 3:
+			System.out.print("3");
+		case 4:
+			System.out.print("4");
+		case 5:
+			System.out.print("5");
+		}
+		System.out.print(day);
+}
+}

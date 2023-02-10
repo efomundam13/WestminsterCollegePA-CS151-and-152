@@ -1,0 +1,58 @@
+import java.util.*;
+
+public class HW4P5 {
+	
+	private class Item {
+
+	public Object value;
+
+	public int priority;
+
+	public Item(Object obj, int pr) {
+		value = obj;
+		priority = pr;
+		}
+	}
+
+	private int mySize;
+	private ArrayList<Item> myList;
+
+	public void PriorityQueue() {
+		myList = new ArrayList<Item>(32);
+		mySize = 0;
+		}
+
+	public boolean add(Object o, int priority) {
+		Item item = new Item(o, priority);
+		int i;
+		for(i = 0; i < mySize; i++) {
+			if(myList.get(i).priority < priority) {
+				break;
+				}
+			}
+		myList.add(i, item);
+		mySize++; // added element, update count
+		return true;
+	}
+
+	public Object remove() {
+		if (mySize != 0) {
+			Item hold = myList.get(0);
+			myList.remove(0); // pop last off
+			mySize--;
+			return hold.value;
+			}
+		return null;
+		}
+
+	public static void main(String args[]) {
+		PriorityQueue pq = new PriorityQueue();
+		pq.add("X");
+		pq.add("Y");
+		pq.add("Z");
+		
+		System.out.println(pq.remove()); // Returns X
+		System.out.println(pq.remove()); // Returns Z
+		System.out.println(pq.remove()); // Returns Y
+		}
+	}

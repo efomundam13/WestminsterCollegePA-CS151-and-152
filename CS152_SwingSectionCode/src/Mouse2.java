@@ -1,0 +1,34 @@
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+import javax.swing.*;
+
+public class Mouse2 extends JFrame {
+
+	public Mouse2() {
+		setSize(1000,500);
+		setLocation(200,200);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("Mouse example");
+		
+		addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent e) {
+				 int x = e.getX();
+				 int y = e.getY();
+				 setTitle("Mouse clicked at (" + x + "," + y + ")");
+			}
+			
+			public void mouseExited(MouseEvent e) {
+				JOptionPane.showMessageDialog(null, "Mouse has left the window");
+			}
+		});
+	}
+	public static void main(String[] args) {
+		
+		Mouse2 window = new Mouse2();
+		window.setVisible(true);
+
+	}
+
+}

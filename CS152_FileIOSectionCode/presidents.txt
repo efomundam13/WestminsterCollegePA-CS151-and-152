@@ -1,0 +1,92 @@
+Washington, George
+02 22 1732
+Adams, John
+10 30 1735
+Jefferson, Thomas
+04 13 1743
+Madison, James
+03 16 1751
+Monroe, James
+04 28 1758
+Adams, John Quincy
+07 11 1767
+Jackson, Andrew
+03 15 1767
+Van Buren, Martin
+12 05 1782
+Harrison, William Henry
+02 09 1773
+Tyler, John
+03 29 1790
+Polk, James Knox
+11 02 1795
+Taylor, Zachary
+11 24 1784
+Fillmore, Millard
+01 07 1800
+Pierce, Franklin
+11 23 1804
+Buchanan, James
+04 23 1791
+Lincoln, Abraham
+02 12 1809
+Johnson, Andrew
+12 29 1808
+Grant, Ulysses S.
+04 27 1822
+Hayes, Rutherford Birchard
+10 04 1822
+Garfield, James Abram
+11 19 1831
+Arthur, Chester Alan
+10 05 1830
+Cleveland, Grover
+03 18 1837
+Harrison, Benjamin
+08 20 1833
+Cleveland, Grover
+03 18 1837
+McKinley, William
+01 29 1843
+Roosevelt, Theodore
+10 27 1858
+Taft, William Howard
+09 15 1857
+Wilson, Woodrow
+12 28 1856
+Harding, Warren Gamaliel
+11 02 1865
+Coolidge, Calvin
+07 04 1872
+Hoover, Herbert Clark
+08 10 1874
+Roosevelt, Franklin Delano
+01 30 1882
+Truman, Harry S
+05 08 1884
+Eisenhower, Dwight David
+10 14 1890
+Kennedy, John Fitzgerald
+05 29 1917
+Johnson, Lyndon Baines
+08 27 1908
+Nixon, Richard Milhouse
+01 09 1913
+Ford, Gerald Rudolph
+07 14 1913
+Carter, Jimmy Earl
+10 01 1924	
+Reagan, Ronald Wilson
+02 06 1911
+Bush, George Herbert Walker
+06 12 1924	
+Clinton, Bill Jefferson
+08 19 1946	
+Bush, George Walker
+07 06 1946	
+Obama, Barack Hussein
+08 04 1961
+Trump, Donald John
+06 14 1946
+Biden, Joseph Robinette
+11 20 1942

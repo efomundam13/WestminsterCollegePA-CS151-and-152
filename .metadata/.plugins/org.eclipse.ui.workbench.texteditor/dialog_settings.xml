@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="col"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="true"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="column"/>
+			<item value="dataArray"/>
+			<item value="data"/>
+			<item value="puzzle[i][j]"/>
+			<item value="&#x0D;&#x0A;import java.time.LocalTime;&#x0D;&#x0A;import java.util.Scanner;&#x0D;&#x0A;&#x0D;&#x0A;/**&#x0D;&#x0A; * Manny Fomundam&#x0D;&#x0A; * Lab 4 - Do you have the time?&#x0D;&#x0A; * Takes the raw form of a time and turns the time into a nicer form&#x0D;&#x0A; */&#x0D;&#x0A;public class Lab4 {&#x0D;&#x0A;&#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;Scanner in = new Scanner(System.in);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;String time = LocalTime.now().toString();&#x0D;&#x0A;&#x09;&#x09;System.out.println(time);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;String hours = time.substring(0,2);&#x0D;&#x0A;&#x09;&#x09;String minutes = time.substring(3,5);&#x0D;&#x0A;&#x09;&#x09;String seconds = time.substring(6,8);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;int hour = Integer.parseInt(hours );&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;String niceTime = &quot;&quot;;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;if (hour == 00) {&#x0D;&#x0A;&#x09;&#x09;&#x09;niceTime += 12;&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;else if (hour &lt;= 9) {&#x0D;&#x0A;&#x09;&#x09;&#x09;niceTi}&#x0D;&#x0A;}"/>
+			<item value="&#x0D;&#x0A;import java.time.LocalTime;&#x0D;&#x0A;import java.util.Scanner;&#x0D;&#x0A;&#x0D;&#x0A;/**&#x0D;&#x0A; * Manny Fomundam&#x0D;&#x0A; * Lab 4 - Do you have the time?&#x0D;&#x0A; * Takes the raw form of a time and turns the time into a nicer form&#x0D;&#x0A; */&#x0D;&#x0A;public class Lab4 {&#x0D;&#x0A;&#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;Scanner in = new Scanner(System.in);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;String time = LocalTime.now().toString();&#x0D;&#x0A;&#x09;&#x09;System.out.println(time);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;String hours = time.substring(0,2);&#x0D;&#x0A;&#x09;&#x09;String minutes = time.substring(3,5);&#x0D;&#x0A;&#x09;&#x09;String seconds = time.substring(6,8);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;int hour = Integer.parseInt(hours );&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;String niceTime = &quot;&quot;;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;if (hour == 00) {&#x0D;&#x0A;&#x09;&#x09;&#x09;niceTime += 12;&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;else if (hour &lt;= 9) {&#x0D;&#x0A;&#x09;&#x09;&#x09;niceTime += hour;&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;else if(hour &gt; 12)&#x09;{&#x0D;&#x0A;&#x09;&#x09;&#x09;niceTime += hour-12;&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;niceTime += &quot;:&quot; + minutes + &quot;:&quot; + seconds;&#x0D;&#x0A;&#x09;&#x09;System.out.println(niceTime);&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;if (hour &gt; 12) {&#x0D;&#x0A;&#x09;&#x09;&#x09;System.out.println(&quot; PM&quot;);&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;&#x09;else if (hour &lt; 12) {&#x0D;&#x0A;&#x09;&#x09;&#x09;System.out.println(&quot; AM&quot;);&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;}"/>
+		</list>
+		<list key="replacehistory">
+			<item value="col"/>
+			<item value="data"/>
+			<item value="RaggedArr"/>
+			<item value="t"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="-6"/>
+		<item key="DIALOG_Y_ORIGIN" value="259"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

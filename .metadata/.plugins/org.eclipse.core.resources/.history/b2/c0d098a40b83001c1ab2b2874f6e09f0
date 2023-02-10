@@ -1,0 +1,14 @@
+
+public class GrilleCoder extends Coder{
+
+	public String encrypt(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String decrypt(String s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

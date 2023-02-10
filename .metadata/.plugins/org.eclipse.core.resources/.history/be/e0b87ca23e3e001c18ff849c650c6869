@@ -1,0 +1,44 @@
+
+import java.util.Scanner;
+
+public class PizzaOrder {
+	
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		double totalcostoforder;
+		int numofpizzas;
+		
+
+		numofpizzas = in.nextInt();
+		System.out.println("How many pizzas do you want?");
+		
+		Pizza pizza1 = new Pizza(in.next(), in.nextInt(), in.nextInt(), in.nextInt());
+		Pizza pizza2 = new Pizza(in.next(), in.nextInt(), in.nextInt(), in.nextInt());
+		Pizza pizza3 = new Pizza(in.next(), in.nextInt(), in.nextInt(), in.nextInt());
+		
+		if (numofpizzas == 1) {
+			System.out.println(pizza1.getDescription());
+			totalcostoforder = pizza1.calcCost();
+			System.out.println("Total Cost of Order: " + totalcostoforder);
+		}
+		else if (numofpizzas == 2) {
+			System.out.println(pizza1.getDescription());
+			System.out.println(pizza2.getDescription());
+			totalcostoforder = pizza1.calcCost() + pizza2.calcCost();
+			System.out.println("Total Cost of Order: " + totalcostoforder);
+		}
+		else if (numofpizzas == 3) {
+			System.out.println(pizza1.getDescription());
+			System.out.println(pizza2.getDescription());
+			System.out.println(pizza3.getDescription());
+			totalcostoforder = pizza1.calcCost() + pizza2.calcCost() + pizza3.calcCost();
+			System.out.println("Total Cost of Order: " + totalcostoforder);
+		}
+		else
+			System.out.println("Enter in 1 to 3 pizzas!!!");
+		
+		
+		totalcostoforder = pizza1.calcCost() + pizza2.calcCost() + pizza3.calcCost();
+		System.out.println("Total Cost of Order: " + totalcostoforder);
+	}
+}

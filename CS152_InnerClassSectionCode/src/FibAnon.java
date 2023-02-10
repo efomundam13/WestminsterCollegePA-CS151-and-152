@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+public class FibAnon {
+	
+	private LongPair pair = new LongPair() {
+		long [] fvals = new long[2];
+		
+		public void set(long val, int index) {
+			fvals[index] = val;
+		}
+		
+		public long get(int index) {
+			return fvals[index];
+		}
+	};
+	
+	public LongPair fib_rec(int n) {
+		if (n <= 1) {
+			pair.set(1, 0);
+			pair.set(1, 1);
+			return pair;
+		}
+		else {
+			LongPair ans = fib_rec(n-1);
+			long fprev = ans.get(1);
+			long fcurr = ans.get(0);
+			ans.set(fcurr, 1);
+			ans.set(fcurr+fprev, 0);
+			return ans;
+		}
+	}
+	
+	public long fib(int n) {
+		return fib_rec(n).get(0);
+	}
+
+public static void main(String[] args) {
+		
+		int n;
+		Scanner in = new Scanner(System.in);
+		FibAnon f = new FibAnon();
+		
+		System.out.print("Enter a interger -->");
+		n = in.nextInt();
+		while (n >= 0) {
+			System.out.println("f(" + n + ") = " + f.fib(n));
+			System.out.print("Enter a interger -->");
+			n = in.nextInt();
+		}
+}
+	
+interface LongPair {
+	void set(long val, int index);
+	long get(int index);
+	}
+}
+
+

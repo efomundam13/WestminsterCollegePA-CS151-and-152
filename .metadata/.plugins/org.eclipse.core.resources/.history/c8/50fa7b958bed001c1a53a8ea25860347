@@ -1,0 +1,10 @@
+
+public class ConditionalOperator {
+
+	public static void main(String[] args) {
+		int value = 20 > 10 ? 0 : 1;
+		System.out.println(value);
+
+	}
+
+}

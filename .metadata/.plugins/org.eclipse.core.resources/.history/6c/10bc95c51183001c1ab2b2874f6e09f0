@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class PlayfairCoder extends KeyCoder{
+	
+	public PlayfairCoder() {
+		super();
+	}
+	
+	public PlayfairCoder(String key) {
+		super(key);
+	}
+	
+	public String encrypt(String plaintext) {
+		plaintext = justLetters(plaintext);
+		String ciphertext = "";
+		
+		
+		return ciphertext;
+	}
+	
+	@Override
+	public String decrypt(String plaintext) {
+		// TODO Auto-generated method stub
+		return plaintext;
+	}
+	
+	public static void main(String [] args)
+	{
+		Coder [] coders = new Coder[5];
+		coders[0] = new SubstitutionCoder("Hakuna Matata: it means no worries!");
+		coders[1] = new ArrayCoder();
+		coders[2] = new SubstitutionCoder("Beam me up Scottie");
+		coders[3] = new ArrayCoder();
+		coders[4] = new PlayfairCoder("I am a boy");
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter line to encrypt --> ");
+		String plaintext = in.nextLine();
+	
+		String ciphertext = plaintext;
+		for(int i=0; i<coders.length; i++) {
+			ciphertext = coders[i].encrypt(ciphertext);
+		}
+		System.out.println(ciphertext);
+		
+		plaintext = ciphertext;
+		for(int i=coders.length-1; i>=0; i--) {
+			plaintext = coders[i].decrypt(plaintext);
+		}
+		System.out.println(plaintext);
+	}
+}

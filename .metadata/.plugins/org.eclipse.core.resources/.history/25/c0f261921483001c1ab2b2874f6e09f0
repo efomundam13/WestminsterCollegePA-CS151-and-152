@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class PlayfairCoder extends KeyCoder{
+	
+	protected char[][] coder  = new char[5][5];
+	protected static int length = 0;
+	
+	public PlayfairCoder() {
+		super();
+	}
+	
+	public PlayfairCoder(String key) {
+		super(key);
+	}
+	
+	public String encrypt(String plaintext) {
+		plaintext = justLetters(plaintext);
+		String ciphertext = "";
+
+		for(int i=0; i<plaintext.length(); i++) {
+			int index = ALPHABET.indexOf(plaintext.charAt(i));
+			ciphertext += key.charAt(index);
+		}
+		
+//Adding X's between digraphs that have double letters and redefining the length of the phrase
+		length = justLetters(plaintext).length() / 2 + plaintext.length() % 2;
+		for(int i = 0; i < (length-1); i++) {
+			if(justLetters(plaintext).charAt(2*i) == justLetters(plaintext).charAt(2 * i + 1));
+			plaintext = new String(plaintext); //insert x
+			length = plaintext.length() / 2 + plaintext.length() % 2;
+			ciphertext += key.charAt(length);
+		}
+		return ciphertext;
+	}
+	
+	public String decrypt(String plaintext) {
+		// TODO Auto-generated method stub
+		return plaintext;
+	}
+	
+	public static void main(String [] args)
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.print("Enter line to encrypt --> ");
+		String plaintext = in.nextLine();
+	
+		System.out.println(plaintext);
+		System.out.println(length);
+	}
+}

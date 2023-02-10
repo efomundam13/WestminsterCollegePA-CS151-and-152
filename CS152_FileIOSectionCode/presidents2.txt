@@ -1,0 +1,184 @@
+President Washington, George was born on 2/ 22/ 1732/
+President Adams, John was born on 10/ 30/ 1735/
+President Jefferson, Thomas was born on 4/ 13/ 1743/
+President Madison, James was born on 3/ 16/ 1751/
+President Monroe, James was born on 4/ 28/ 1758/
+President Adams, John Quincy was born on 7/ 11/ 1767/
+President Jackson, Andrew was born on 3/ 15/ 1767/
+President Van Buren, Martin was born on 12/ 5/ 1782/
+President Harrison, William Henry was born on 2/ 9/ 1773/
+President Tyler, John was born on 3/ 29/ 1790/
+President Polk, James Knox was born on 11/ 2/ 1795/
+President Taylor, Zachary was born on 11/ 24/ 1784/
+President Fillmore, Millard was born on 1/ 7/ 1800/
+President Pierce, Franklin was born on 11/ 23/ 1804/
+President Buchanan, James was born on 4/ 23/ 1791/
+President Lincoln, Abraham was born on 2/ 12/ 1809/
+President Johnson, Andrew was born on 12/ 29/ 1808/
+President Grant, Ulysses S. was born on 4/ 27/ 1822/
+President Hayes, Rutherford Birchard was born on 10/ 4/ 1822/
+President Garfield, James Abram was born on 11/ 19/ 1831/
+President Arthur, Chester Alan was born on 10/ 5/ 1830/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President Harrison, Benjamin was born on 8/ 20/ 1833/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President McKinley, William was born on 1/ 29/ 1843/
+President Roosevelt, Theodore was born on 10/ 27/ 1858/
+President Taft, William Howard was born on 9/ 15/ 1857/
+President Wilson, Woodrow was born on 12/ 28/ 1856/
+President Harding, Warren Gamaliel was born on 11/ 2/ 1865/
+President Coolidge, Calvin was born on 7/ 4/ 1872/
+President Hoover, Herbert Clark was born on 8/ 10/ 1874/
+President Roosevelt, Franklin Delano was born on 1/ 30/ 1882/
+President Truman, Harry S was born on 5/ 8/ 1884/
+President Eisenhower, Dwight David was born on 10/ 14/ 1890/
+President Kennedy, John Fitzgerald was born on 5/ 29/ 1917/
+President Johnson, Lyndon Baines was born on 8/ 27/ 1908/
+President Nixon, Richard Milhouse was born on 1/ 9/ 1913/
+President Ford, Gerald Rudolph was born on 7/ 14/ 1913/
+President Carter, Jimmy Earl was born on 10/ 1/ 1924/
+President Reagan, Ronald Wilson was born on 2/ 6/ 1911/
+President Bush, George Herbert Walker was born on 6/ 12/ 1924/
+President Clinton, Bill Jefferson was born on 8/ 19/ 1946/
+President Bush, George Walker was born on 7/ 6/ 1946/
+President Obama, Barack Hussein was born on 8/ 4/ 1961/
+President Trump, Donald John was born on 6/ 14/ 1946/
+President Biden, Joseph Robinette was born on 11/ 20/ 1942/
+President Washington, George was born on 2/ 22/ 1732/
+President Adams, John was born on 10/ 30/ 1735/
+President Jefferson, Thomas was born on 4/ 13/ 1743/
+President Madison, James was born on 3/ 16/ 1751/
+President Monroe, James was born on 4/ 28/ 1758/
+President Adams, John Quincy was born on 7/ 11/ 1767/
+President Jackson, Andrew was born on 3/ 15/ 1767/
+President Van Buren, Martin was born on 12/ 5/ 1782/
+President Harrison, William Henry was born on 2/ 9/ 1773/
+President Tyler, John was born on 3/ 29/ 1790/
+President Polk, James Knox was born on 11/ 2/ 1795/
+President Taylor, Zachary was born on 11/ 24/ 1784/
+President Fillmore, Millard was born on 1/ 7/ 1800/
+President Pierce, Franklin was born on 11/ 23/ 1804/
+President Buchanan, James was born on 4/ 23/ 1791/
+President Lincoln, Abraham was born on 2/ 12/ 1809/
+President Johnson, Andrew was born on 12/ 29/ 1808/
+President Grant, Ulysses S. was born on 4/ 27/ 1822/
+President Hayes, Rutherford Birchard was born on 10/ 4/ 1822/
+President Garfield, James Abram was born on 11/ 19/ 1831/
+President Arthur, Chester Alan was born on 10/ 5/ 1830/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President Harrison, Benjamin was born on 8/ 20/ 1833/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President McKinley, William was born on 1/ 29/ 1843/
+President Roosevelt, Theodore was born on 10/ 27/ 1858/
+President Taft, William Howard was born on 9/ 15/ 1857/
+President Wilson, Woodrow was born on 12/ 28/ 1856/
+President Harding, Warren Gamaliel was born on 11/ 2/ 1865/
+President Coolidge, Calvin was born on 7/ 4/ 1872/
+President Hoover, Herbert Clark was born on 8/ 10/ 1874/
+President Roosevelt, Franklin Delano was born on 1/ 30/ 1882/
+President Truman, Harry S was born on 5/ 8/ 1884/
+President Eisenhower, Dwight David was born on 10/ 14/ 1890/
+President Kennedy, John Fitzgerald was born on 5/ 29/ 1917/
+President Johnson, Lyndon Baines was born on 8/ 27/ 1908/
+President Nixon, Richard Milhouse was born on 1/ 9/ 1913/
+President Ford, Gerald Rudolph was born on 7/ 14/ 1913/
+President Carter, Jimmy Earl was born on 10/ 1/ 1924/
+President Reagan, Ronald Wilson was born on 2/ 6/ 1911/
+President Bush, George Herbert Walker was born on 6/ 12/ 1924/
+President Clinton, Bill Jefferson was born on 8/ 19/ 1946/
+President Bush, George Walker was born on 7/ 6/ 1946/
+President Obama, Barack Hussein was born on 8/ 4/ 1961/
+President Trump, Donald John was born on 6/ 14/ 1946/
+President Biden, Joseph Robinette was born on 11/ 20/ 1942/
+President Washington, George was born on 2/ 22/ 1732/
+President Adams, John was born on 10/ 30/ 1735/
+President Jefferson, Thomas was born on 4/ 13/ 1743/
+President Madison, James was born on 3/ 16/ 1751/
+President Monroe, James was born on 4/ 28/ 1758/
+President Adams, John Quincy was born on 7/ 11/ 1767/
+President Jackson, Andrew was born on 3/ 15/ 1767/
+President Van Buren, Martin was born on 12/ 5/ 1782/
+President Harrison, William Henry was born on 2/ 9/ 1773/
+President Tyler, John was born on 3/ 29/ 1790/
+President Polk, James Knox was born on 11/ 2/ 1795/
+President Taylor, Zachary was born on 11/ 24/ 1784/
+President Fillmore, Millard was born on 1/ 7/ 1800/
+President Pierce, Franklin was born on 11/ 23/ 1804/
+President Buchanan, James was born on 4/ 23/ 1791/
+President Lincoln, Abraham was born on 2/ 12/ 1809/
+President Johnson, Andrew was born on 12/ 29/ 1808/
+President Grant, Ulysses S. was born on 4/ 27/ 1822/
+President Hayes, Rutherford Birchard was born on 10/ 4/ 1822/
+President Garfield, James Abram was born on 11/ 19/ 1831/
+President Arthur, Chester Alan was born on 10/ 5/ 1830/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President Harrison, Benjamin was born on 8/ 20/ 1833/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President McKinley, William was born on 1/ 29/ 1843/
+President Roosevelt, Theodore was born on 10/ 27/ 1858/
+President Taft, William Howard was born on 9/ 15/ 1857/
+President Wilson, Woodrow was born on 12/ 28/ 1856/
+President Harding, Warren Gamaliel was born on 11/ 2/ 1865/
+President Coolidge, Calvin was born on 7/ 4/ 1872/
+President Hoover, Herbert Clark was born on 8/ 10/ 1874/
+President Roosevelt, Franklin Delano was born on 1/ 30/ 1882/
+President Truman, Harry S was born on 5/ 8/ 1884/
+President Eisenhower, Dwight David was born on 10/ 14/ 1890/
+President Kennedy, John Fitzgerald was born on 5/ 29/ 1917/
+President Johnson, Lyndon Baines was born on 8/ 27/ 1908/
+President Nixon, Richard Milhouse was born on 1/ 9/ 1913/
+President Ford, Gerald Rudolph was born on 7/ 14/ 1913/
+President Carter, Jimmy Earl was born on 10/ 1/ 1924/
+President Reagan, Ronald Wilson was born on 2/ 6/ 1911/
+President Bush, George Herbert Walker was born on 6/ 12/ 1924/
+President Clinton, Bill Jefferson was born on 8/ 19/ 1946/
+President Bush, George Walker was born on 7/ 6/ 1946/
+President Obama, Barack Hussein was born on 8/ 4/ 1961/
+President Trump, Donald John was born on 6/ 14/ 1946/
+President Biden, Joseph Robinette was born on 11/ 20/ 1942/
+President Washington, George was born on 2/ 22/ 1732/
+President Adams, John was born on 10/ 30/ 1735/
+President Jefferson, Thomas was born on 4/ 13/ 1743/
+President Madison, James was born on 3/ 16/ 1751/
+President Monroe, James was born on 4/ 28/ 1758/
+President Adams, John Quincy was born on 7/ 11/ 1767/
+President Jackson, Andrew was born on 3/ 15/ 1767/
+President Van Buren, Martin was born on 12/ 5/ 1782/
+President Harrison, William Henry was born on 2/ 9/ 1773/
+President Tyler, John was born on 3/ 29/ 1790/
+President Polk, James Knox was born on 11/ 2/ 1795/
+President Taylor, Zachary was born on 11/ 24/ 1784/
+President Fillmore, Millard was born on 1/ 7/ 1800/
+President Pierce, Franklin was born on 11/ 23/ 1804/
+President Buchanan, James was born on 4/ 23/ 1791/
+President Lincoln, Abraham was born on 2/ 12/ 1809/
+President Johnson, Andrew was born on 12/ 29/ 1808/
+President Grant, Ulysses S. was born on 4/ 27/ 1822/
+President Hayes, Rutherford Birchard was born on 10/ 4/ 1822/
+President Garfield, James Abram was born on 11/ 19/ 1831/
+President Arthur, Chester Alan was born on 10/ 5/ 1830/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President Harrison, Benjamin was born on 8/ 20/ 1833/
+President Cleveland, Grover was born on 3/ 18/ 1837/
+President McKinley, William was born on 1/ 29/ 1843/
+President Roosevelt, Theodore was born on 10/ 27/ 1858/
+President Taft, William Howard was born on 9/ 15/ 1857/
+President Wilson, Woodrow was born on 12/ 28/ 1856/
+President Harding, Warren Gamaliel was born on 11/ 2/ 1865/
+President Coolidge, Calvin was born on 7/ 4/ 1872/
+President Hoover, Herbert Clark was born on 8/ 10/ 1874/
+President Roosevelt, Franklin Delano was born on 1/ 30/ 1882/
+President Truman, Harry S was born on 5/ 8/ 1884/
+President Eisenhower, Dwight David was born on 10/ 14/ 1890/
+President Kennedy, John Fitzgerald was born on 5/ 29/ 1917/
+President Johnson, Lyndon Baines was born on 8/ 27/ 1908/
+President Nixon, Richard Milhouse was born on 1/ 9/ 1913/
+President Ford, Gerald Rudolph was born on 7/ 14/ 1913/
+President Carter, Jimmy Earl was born on 10/ 1/ 1924/
+President Reagan, Ronald Wilson was born on 2/ 6/ 1911/
+President Bush, George Herbert Walker was born on 6/ 12/ 1924/
+President Clinton, Bill Jefferson was born on 8/ 19/ 1946/
+President Bush, George Walker was born on 7/ 6/ 1946/
+President Obama, Barack Hussein was born on 8/ 4/ 1961/
+President Trump, Donald John was born on 6/ 14/ 1946/
+President Biden, Joseph Robinette was born on 11/ 20/ 1942/
